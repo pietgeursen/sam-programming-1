@@ -43,6 +43,7 @@ var shoppingList = ['beer', 'avos', 'cats']
 ```
 
 Getting an element out of the array by it's index. "Indexing into an array"
+
 Indexes start at 0
 
 ```js
@@ -82,7 +83,7 @@ if (person.age > 20) {
 
 ## Loops
 
-```
+```js
 var shoppingList = ['beer', 'avos', 'cats']
 for (var i = 0; i < shoppingList.length; i = i + 1) {
   console.log('the element in the shopping list is:', shoppingList[i])
